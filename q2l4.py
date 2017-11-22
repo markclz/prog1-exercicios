@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 n = int(input("Digite a quantidade de elementos do vetor:"))
 k = int(input("Digite o valor da chave K: "))
 vet =[0] * n
@@ -12,3 +13,6 @@ for i in range(len(vet)):
      pos = i
 print("Posição: ",pos)
 
+=======
+print("Para resolução de conflito")
+>>>>>>> origin/master
