@@ -1,3 +1,5 @@
+#Nao consegui comcluir#
+
 n = int(input("Digite a quantidade de elementos do vetor:"))
 vet = [0] * n
 #vet2 =[]
