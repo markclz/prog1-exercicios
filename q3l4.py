@@ -23,30 +23,18 @@ while i < len(vet):
 print(vet)
 print(len(vet))
 
-"""
-vet2 = vet
-print(vet2)
-
-for i in range(len(vet)):
-    if vet[i] == i:
-        print(i)
-
-"""
-
-
-
-
-
-
-
-
-
-
-
-
-
-#for i in range(len(vet)):
-
-
+# daqui para baixo peguei da internet
+i = 0
+while i < len(vet)-1:
+    j = i + 1
+    while j < len(vet):
+        if vet[i] == vet[j]:
+            vet.pop(j)
+        else:
+            j = j + 1
+    i = i + 1
+for n in vet:
+    print(n, end =" ")
+print()
 
 
