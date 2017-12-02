@@ -1,19 +1,17 @@
-
-
-n = int(input("Numero de elementos do vetor: "))
-c = 0
-while c < n:
-    c = c + 1
-    p1 = float(input("Digite a nota da P1 do aluno: "))
-    p2 = float(input("Digite a nota da P2 do aluno: "))
-    media = (p1+p2)/2
-
-vet = [0] * n
-for i in range(n):
-    vet[i] = media
+vet = [40,5,2,20]
+# percorre o vetor
+# até a penultima posição
+# no caso len que vale 4 menos 1
 print(vet)
+for i in range(len(vet)-1):
+    posm = i
+    for j in range(i+1,len(vet)):
+        if vet[j] < vet[posm]:
+            posm = j
+    aux = vet[i]
+    vet[i] = vet[posm]
+    vet[posm] = aux
+    print(vet)
 
-
-if vet[i] >=
 
 

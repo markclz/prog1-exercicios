@@ -5,10 +5,12 @@ for i in range(n):
     c+=1
     vet[i] = c # em vez de aplicar o incremento da variavel c para preencer o vetor com as 25 posições podeira usar um input e o usuario ir colocando
 print(vet)
+
+
+# verifica qual é o maior elemento
 maior = 0
 j = 0
 
-# verifica qual é o maior elemento
 while j < n:
     if vet[j] > maior:
         maior = vet[j]
